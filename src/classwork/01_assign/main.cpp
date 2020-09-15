@@ -7,12 +7,11 @@
 
 int main() 
 {
-  int num1,num2;
+  int num1,num2 = 4;
   std::cout<< "Enter number here";
   std::cin>> num1;
-  std::cout<< "Enter number here";
-  std::cin>> num2;
-  std::cout<< mutiply_numbers(num1,num2);
+  
+  std::cout<< mutiply_numbers(num1);
 	return 0;
 }
 

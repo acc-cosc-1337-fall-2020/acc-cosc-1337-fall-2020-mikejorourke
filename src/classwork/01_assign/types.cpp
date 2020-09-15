@@ -3,10 +3,11 @@
 
 //DON'T ERASE THIS
 
-int mutiply_numbers(int a, int b)
+int mutiply_numbers(int a)
 
 
 {
+	int b = 5;
 	return a * b;
 }
 
