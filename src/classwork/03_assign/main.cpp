@@ -11,7 +11,15 @@ int main()
     cout<<"Enter Your Test Score: ";
     cin>>user_grade; 
 
-    cout<< "Your letter grade is:" <<get_letter_grade_using_if(user_grade) << " " << get_letter_grade_using_switch(user_grade);
+    if(user_grade >= 0 && user_grade <= 100)
+    {
+        cout<< "Your letter grade is:" <<get_letter_grade_using_if(user_grade) << " " << get_letter_grade_using_switch(user_grade);
+    }
+    else
+    {
+        cout<<"Invalid grade";
+    }
+    
 
     return 0;
   
