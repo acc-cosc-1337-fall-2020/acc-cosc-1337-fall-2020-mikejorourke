@@ -1,8 +1,17 @@
-#include "for_ranged.h"
+#include "vec.h"
 #include<iostream>
 #include<vector>
 
 using std::vector;
+
+void loop_string_w_index(std::string str)
+{
+ for(std::size_t i=0; i < str.size(); ++i )
+ {
+    str[i] = 'z';
+ }
+}
+
 
 /*
 Function loop_vector_w_index 

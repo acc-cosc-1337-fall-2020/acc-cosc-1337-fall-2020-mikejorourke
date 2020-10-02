@@ -1,6 +1,11 @@
 #include<string>
 #include<vector>
 
+
+void loop_string_w_index(std::string str);
+void loop_string_w_index_ref(std::string str);
+viod loop_string_w_for_range(std::string str);
+
 /*
 Write function prototype for void function loop_vector_w_index with no parameters.
 
